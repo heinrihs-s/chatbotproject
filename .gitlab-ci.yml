@@ -2,4 +2,4 @@ stages:
   - deploy
 include:
   - '/examples/coffee_bot/.gitlab-ci.yml'
-  - '/examples/rasa_demo/.gitlab-ci.yml'
+#  - '/examples/rasa_demo/.gitlab-ci.yml'
