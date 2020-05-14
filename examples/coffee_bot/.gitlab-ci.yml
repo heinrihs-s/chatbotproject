@@ -6,3 +6,6 @@ production:
     - apt-get install -y gunicorn
     - gem install dpl
     - dpl --provider=heroku --app=chatbot-barista --api-key=$HEROKU_API_KEY
+  when: manual
+  only:
+    - master

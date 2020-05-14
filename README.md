@@ -19,7 +19,7 @@ The demo runs on Heroku, feel free to [try it out](https://chatbot-engine-web.he
 Please note it might take longer the first time for the server to start. There are many dependencies that need to be downloaded. Subsequent starts are gonna be quick though.
 
 ### Train your model
-`./server.sh train [de|en|sv]`
+`./server.sh train examples/rasa_demo [de|en|sv]`
 
 The script process training data stored in `config/models` and stores the output in the `models` directory.
 

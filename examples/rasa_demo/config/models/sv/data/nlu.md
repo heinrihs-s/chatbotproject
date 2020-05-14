@@ -181,7 +181,8 @@
 - who am i
 
 ## intent:bot_welcome
-- bot_welcome
+- utter_welcome
+- welcome
 
 ## intent:bye
 - bye

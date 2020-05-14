@@ -60,7 +60,7 @@ intents:
   - out_of_scope
   - subscribe
 
-templates:
+responses:
   utter_about_me:
     - text: >
         Ich bin ein Prototyp eines mehrsprachigen Assistenten.

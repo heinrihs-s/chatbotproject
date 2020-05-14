@@ -49,7 +49,7 @@ intents:
   - opinion+negative
   - opinion+positive
   - out_of_scope
-templates:
+responses:
   utter_about_me:
     - text: >
         I am a prototype of a multilingual assistant.

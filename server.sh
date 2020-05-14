@@ -55,7 +55,7 @@ function train_model_locale() {
   fi
 
   docker run -v $(pwd):/app \
-    rasa/rasa:1.6.0-full train \
+    rasa/rasa:1.10.0-full train \
     --config "$config" \
     --domain "$domain" \
     --data "$data" \

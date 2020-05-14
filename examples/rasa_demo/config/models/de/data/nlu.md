@@ -176,9 +176,8 @@
 - wer bin ich
 
 ## intent:bot_welcome
-- bot_welcome
+- utter_welcome
 - welcome
-- willkommen
 
 ## intent:bye
 - tschüss

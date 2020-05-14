@@ -32,7 +32,7 @@ intents:
 slots:
   coffee_type:
     type: text
-templates:
+responses:
   utter_advice:
     - text: I trust you will get better. Never give up!
   utter_cheer_up:
